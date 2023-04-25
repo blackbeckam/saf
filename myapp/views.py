@@ -4,8 +4,7 @@ from django_daraja.mpesa.core import MpesaClient
 # Create your views here.
 def index(request):
   cl = MpesaClient()
-  phone_number = '0794973356'
-  amount = 1
+git   amount = 1
   account_reference = 'Moses'
   transaction_desc = 'Description'
   callback_url = 'https://api.darajambili.com/express-payment'
